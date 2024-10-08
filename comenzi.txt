@@ -1,0 +1,7 @@
+bison -dv calc3.y
+flex -ocalc3.yy.c calc3.l
+gcc -o calc3.exe calc3.tab.c calc3.yy.c calc3g.c -lm -lfl
+gcc -o calc3A.exe calc3.tab.c calc3.yy.c calc3a.c -lm -lfl
+
+./calc3A.exe
+./calc_arbore.exe

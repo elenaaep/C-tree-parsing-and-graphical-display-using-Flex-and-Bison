@@ -1,0 +1,98 @@
+//teste ptoperatorii adaugti 
+
+x = 10;
+y = 15;
+z = x & y;        // Test pentru AND binar: 1010 & 1111 = 1010 (rezultatul este 10)
+write z + 5;      // Rezultatul este 15
+z = x | y;        // Test pentru OR binar: 1010 | 1111 = 1111 (rezultatul este 15)
+write z - 5;      // Rezultatul este 10
+z = x ^ y;        // Test pentru XOR binar: 1010 ^ 1111 = 0101 (rezultatul este 5)
+write z * 2;      // Rezultatul este 10
+z = x << 1;       // Test pentru deplasare la stânga: 1010 << 1 = 10100 (rezultatul este 20)
+write z / 2;      // Rezultatul este 10
+z = y >> 2;       // Test pentru deplasare la dreapta: 1111 >> 2 = 0011 (rezultatul este 3)
+write z + 1;      // Rezultatul este 4
+
+write 5 & 3;       // Test pentru AND binar: 0101 & 0011 = 0001 (rezultatul este 1)
+write 5 | 3;       // Test pentru OR binar: 0101 | 0011 = 0111 (rezultatul este 7)
+write 5 ^ 3;       // Test pentru XOR binar: 0101 ^ 0011 = 0110 (rezultatul este 6)
+write 5 << 1;      // Test pentru deplasare la stânga: 0101 << 1 = 1010 (rezultatul este 10)
+write 5 >> 1;      // Test pentru deplasare la dreapta: 0101 >> 1 = 0010 (rezultatul este 2)
+
+a = 0xA;           // a = 10 în baza 16
+b = 0x5;           // b = 5 în baza 16
+write a & b;       // Test pentru AND binar: 1010 & 0101 = 0000 (rezultatul este 0)
+write a | b;       // Test pentru OR binar: 1010 | 0101 = 1111 (rezultatul este 15)
+write a ^ b;       // Test pentru XOR binar: 1010 ^ 0101 = 1111 (rezultatul este 15)
+write a << 2;      // Test pentru deplasare la stânga: 1010 << 2 = 101000 (rezultatul este 40)
+write b >> 1;      // Test pentru deplasare la dreapta: 0101 >> 1 = 0010 (rezultatul este 2)
+
+
+x = 5;
+x += 3;
+//write x += 3; // Afișează 8
+write x;      // Afișează 8
+
+y = 10;
+y -= 4;
+//write y -= 4; // Afișează 6
+write y;      // Afișează 6
+
+z = 7;
+z *= 2;
+//write z *= 2; // Afișează 14
+write z;      // Afișează 14
+
+w = 20;
+w /= 5;
+//write w /= 5; // Afișează 4
+write w;      // Afișează 4
+
+v = 15;
+v %= 4;
+//write v %= 4; // Afișează 3
+write v;      // Afișează 3
+
+m = 5;
+m &= 3;
+//write m &= 3; // Afișează 1
+write m;      // Afișează 1
+
+n = 6;
+n |= 3;
+//write n |= 3; // Afișează 7
+write n;      // Afișează 7
+
+p = 2;
+p ^= 5;
+//write p ^= 5; // Afișează 7
+write p;      // Afișează 7
+
+q = 3;
+q <<= 2;
+//write q <<= 2; // Afișează 12
+write q;       // Afișează 12
+
+r = 12;
+r >>= 2;
+//write r >>= 2; // Afișează 3
+write r;       // Afișează 3
+
+
+a=5;
+b=2*5;
+if(a<b)
+	write a;
+else 
+	write b;
+
+
+if(a<b){
+	a++;
+	write a;
+}
+else {
+	++b;
+	write b;
+}
+

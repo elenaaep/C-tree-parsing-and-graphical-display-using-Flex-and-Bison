@@ -1,0 +1,81 @@
+// Test basic arithmetic operations
+a = 10;
+b = 5;
+write a;       // Should print 10
+write b;       // Should print 5
+
+// Test addition assignment
+a += b;
+write a;       // Should print 15
+
+// Test subtraction assignment
+a -= b;
+write a;       // Should print 10
+
+// Test multiplication assignment
+a *= b;
+write a;       // Should print 50
+
+// Test division assignment
+a /= b;
+write a;       // Should print 10
+
+// Test modulus assignment
+a %= 3;
+write a;       // Should print 1
+
+// Test bitwise AND assignment
+a = 5;
+b = 3;
+a &= b;
+write a;       // Should print 1
+
+// Test bitwise OR assignment
+a |= b;
+write a;       // Should print 3
+
+// Test bitwise XOR assignment
+a ^= b;
+write a;       // Should print 0
+
+// Test left shift assignment
+a = 1;
+a <<= 2;
+write a;       // Should print 4
+
+// Test right shift assignment
+a >>= 1;
+write a;       // Should print 2
+
+// Test logical AND
+a = 1;
+b = 0;
+write a && b;  // Should print 0
+write a && a;  // Should print 1
+
+// Test logical OR
+write a || b;  // Should print 1
+write b || b;  // Should print 0
+
+// Test increment and decrement
+a = 1;
+write ++a;     // Should print 2
+write a++;     // Should print 2
+write a;       // Should print 3
+write --a;     // Should print 2
+write a--;     // Should print 2
+write a;       // Should print 1
+
+// Test if-else
+if (a == 1) write 100; else write 200; // Should print 100
+a = 2;
+if (a == 1) write 100; else write 200; // Should print 200
+
+// Test while loop
+a = 0;
+while (a < 3) { write a; a++; } // Should print 0, 1, 2
+
+// Test for loop
+for (a = 0; a < 3; a++) write a; // Should print 0, 1, 2
+
+
